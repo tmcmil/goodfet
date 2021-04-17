@@ -519,7 +519,7 @@ typedef struct
 
 #define TARGET_HAS_NO_HW_DIVIDE (! TARGET_HWMULT)
 
-void msp430_register_pre_includes (const char *sysroot ATTRIBUTE_UNUSED,
+void msp430_register_pre_includes (const char *sysroot ATTRIBUTE_UNUSED);
 				   const char *iprefix ATTRIBUTE_UNUSED,
 				   int stdinc ATTRIBUTE_UNUSED);
 #undef TARGET_EXTRA_PRE_INCLUDES
